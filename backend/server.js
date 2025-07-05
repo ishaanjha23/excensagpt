@@ -93,7 +93,7 @@ import requests
 import sys
 import json
 
-API_KEY = "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"
+API_KEY = "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"
 MODEL = "mistralai/mistral-small-3.2-24b-instruct:free"
 URL = "https://openrouter.ai/api/v1/chat/completions"
 

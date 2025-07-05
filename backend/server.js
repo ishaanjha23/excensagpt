@@ -93,7 +93,7 @@ import requests
 import sys
 import json
 
-API_KEY = "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"
+API_KEY = "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"
 MODEL = "mistralai/mistral-small-3.2-24b-instruct:free"
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
@@ -218,15 +218,6 @@ except Exception as e:
     });
   });
 }
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-// Serve Vite frontend from dist
-app.use(express.static(path.join(__dirname, '../dist')));
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../dist', 'index.html'));
-});
 
 app.listen(PORT, () => {
   console.log(`🚀 ExcensaGPT backend running on port ${PORT}`);

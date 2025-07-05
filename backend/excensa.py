@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "MY-API-KEY"  # ⛔ Replace with your actual OpenRouter API key
+API_KEY = "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"  # ⛔ Replace with your actual OpenRouter API key
 MODEL = "mistralai/mistral-small-3.2-24b-instruct:free"
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
